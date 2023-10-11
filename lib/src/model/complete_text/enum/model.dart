@@ -1,6 +1,6 @@
 import '../../../utils/constants.dart';
 
-sealed class Model {
+class Model {
   String model;
   Model({required this.model});
 }

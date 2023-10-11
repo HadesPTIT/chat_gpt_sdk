@@ -5,16 +5,15 @@ homepage: https://www.facebook.com/REDEVRX
 repository: https://github.com/redevRx/Flutter-ChatGPT
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: '>=2.19.0 <4.0.0'
 
 dependencies:
-  dio: ^5.2.1+1
-  http_parser: ^4.0.2
+  dio:
+  http_parser:
 
 dev_dependencies:
-  mockito: ^5.4.1
-  build_runner: ^2.4.4
-  lints: ^2.1.1
-  coverage: ^1.6.3
-  dart_code_metrics: ^5.7.5
-  test: ^1.24.3
+  mockito: 
+  build_runner: 
+  coverage: 
+  dart_code_metrics:
+  test: 

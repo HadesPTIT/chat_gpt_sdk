@@ -1,6 +1,6 @@
 import 'package:chat_gpt_sdk/src/utils/constants.dart';
 
-sealed class EditModel {
+class EditModel {
   String model;
   EditModel({required this.model});
 }

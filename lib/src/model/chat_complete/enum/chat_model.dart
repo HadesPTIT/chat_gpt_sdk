@@ -1,6 +1,6 @@
 import '../../../utils/constants.dart';
 
-sealed class ChatModel {
+class ChatModel {
   String model;
   ChatModel({required this.model});
 }

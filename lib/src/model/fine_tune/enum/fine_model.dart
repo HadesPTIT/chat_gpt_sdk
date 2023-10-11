@@ -1,6 +1,6 @@
 import 'package:chat_gpt_sdk/src/utils/constants.dart';
 
-sealed class FineModel {
+class FineModel {
   String model;
   FineModel({required this.model});
 }
